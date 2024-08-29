@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Run Bash",
+            "program": "/usr/bin/bash",
+            "type": "command"
+        },
+        {
+            "args": [
+                "build"
+            ],
+            "name": "Dart Compile",
+            "program": "/usr/bin/dart-sdk/bin",
+            "type": "command"
+        }
+    ]
+}
