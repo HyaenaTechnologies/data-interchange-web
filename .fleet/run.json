@@ -7,10 +7,10 @@
         },
         {
             "args": [
-                "build"
+                "comple"
             ],
             "name": "Dart Compile",
-            "program": "/usr/bin/dart-sdk/bin",
+            "program": "/usr/bin/dart-sdk/bin/dart",
             "type": "command"
         }
     ]
