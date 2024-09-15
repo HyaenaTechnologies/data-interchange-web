@@ -2,7 +2,7 @@
 [Dart]: https://dart.dev/
 [IDEA]: https://jetbrains.com/idea/
 [Rice]: https://rice.edu
-[Stax]: https://openstax.org]
+[Stax]: https://openstax.org
 [VSCode]: https://code.visualstudio.com/docs
 
 <a href="https://github.com/HyaenaTechnologies/calculate_engine">
@@ -13,10 +13,12 @@
   </h1>
 </a>
 
-# Calculate Engine
+# Calculate Engine Web
 
 Calculate Engine is an Open Source Mathematics Engine. The function is to provide Calculators, 
 Steps and promote [OpenStax][Stax], [Rice University][Rice].
+
+Calculate Engine Web is the Web Implementation of the Calculate Engine
 
 ## Build
 
