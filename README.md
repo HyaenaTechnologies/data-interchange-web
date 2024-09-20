@@ -1,6 +1,7 @@
 [Android]: https://developer.android.com/studio
 [CommonMark]:https://commonmark.org/
 [Dart]: https://dart.dev/
+[Hypertext Transfer Protocol]: https://developer.mozilla.org/en-US/docs/Web/HTTP
 [IDEA]: https://jetbrains.com/idea/
 [JSON]: https://www.json.org/json-en.html
 [TOML]: https://toml.io/en/
@@ -9,14 +10,23 @@
 
 # Data Interchange
 
-Data Interchange Format Implementations
+Data Interchange is a Network Application Programming Interface Platform
+
+Data Interchange Web is the Web implementation of Data Interchange
 
 ## Features
 
+- Domain Name System Protocol
 - Extensible Markup Language
+- [Hypertext Transfer Protocol][Hypertext Transfer Protocol]
+- Internet Protocol
 - [JavaScript Object Notation][JSON]
 - [Markdown][CommonMark]
 - [Tom's Obvious Minimal Language][TOML]
+- Transmission Control Protocol
+- Transport Layer Security
+- User Datagram Protocol
+- Web Socket Protocol
 - [Yet Another Markup Language][YAML]
 
 ## Build
