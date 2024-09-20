@@ -8,7 +8,7 @@
 [VSCode]: https://code.visualstudio.com/docs
 [YAML]: https://yaml.org/
 
-# Data Interchange
+# Data Interchange Web
 
 Data Interchange is a Network Application Programming Interface Platform
 
