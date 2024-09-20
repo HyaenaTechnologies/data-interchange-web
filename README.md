@@ -1,24 +1,23 @@
 [Android]: https://developer.android.com/studio
+[CommonMark]:https://commonmark.org/
 [Dart]: https://dart.dev/
 [IDEA]: https://jetbrains.com/idea/
-[Rice]: https://rice.edu
-[Stax]: https://openstax.org
+[JSON]: https://www.json.org/json-en.html
+[TOML]: https://toml.io/en/
 [VSCode]: https://code.visualstudio.com/docs
+[YAML]: https://yaml.org/
 
-<a href="https://github.com/HyaenaTechnologies/calculate_engine">
-  <h1>
-    <picture>
-      <img src="https://github.com/HyaenaTechnologies/calculate_engine/blob/main/assets/hce_markdown.png" alt="">
-    </picture>
-  </h1>
-</a>
+# Data Interchange
 
-# Calculate Engine Web
+Data Interchange Format Implementations
 
-Calculate Engine is an Open Source Mathematics Engine. The function is to provide Calculators, 
-Steps and promote [OpenStax][Stax], [Rice University][Rice].
+## Features
 
-Calculate Engine Web is the Web Implementation of the Calculate Engine
+- Extensible Markup Language
+- [JavaScript Object Notation][JSON]
+- [Markdown][CommonMark]
+- [Tom's Obvious Minimal Language][TOML]
+- [Yet Another Markup Language][YAML]
 
 ## Build
 
