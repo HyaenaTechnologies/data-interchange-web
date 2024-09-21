@@ -24,6 +24,7 @@ Data Interchange Web is the Web implementation of Data Interchange
 
 ## Features
 
+- Comma-Separated Values
 - Domain Name System Protocol
 - Extensible Markup Language
 - [Hypertext Transfer Protocol][Hypertext Transfer Protocol]
