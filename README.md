@@ -8,6 +8,14 @@
 [VSCode]: https://code.visualstudio.com/docs
 [YAML]: https://yaml.org/
 
+<a href="https://github.com/HyaenaTechnologies/hyaena_technologies">
+  <h1>
+    <picture>
+      <img src="https://github.com/HyaenaTechnologies/data_interchange_web/blob/main/assets/di_markdown.png" alt="">
+    </picture>
+  </h1>
+</a>
+
 # Data Interchange Web
 
 Data Interchange is a Network Application Programming Interface Platform
