@@ -35,7 +35,7 @@ Data Interchange Web is the Web implementation of Data Interchange
 - Transport Layer Security
 - User Datagram Protocol
 - Web Socket Protocol
-- [Yet Another Markup Language][YAML]
+- [YAML Ain't Markup Language][YAML]
 
 ## Build
 
