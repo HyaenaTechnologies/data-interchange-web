@@ -1,4 +1,3 @@
-[Android]: https://developer.android.com/studio
 [CommonMark]:https://commonmark.org/
 [Dart]: https://dart.dev/
 [Hypertext Transfer Protocol]: https://developer.mozilla.org/en-US/docs/Web/HTTP
@@ -39,7 +38,6 @@ Data Interchange Web is the Web implementation of Data Interchange
 
 ## Build
 
-- [Android Studio][Android]
 - [Dart Language][Dart]
 - [IntelliJ IDEA][IDEA]
 - [Visual Studio Code][VSCode]
