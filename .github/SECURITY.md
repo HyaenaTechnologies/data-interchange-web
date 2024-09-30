@@ -1,4 +1,4 @@
-[Report]: https://github.com/HyaenaTechnologies/data_interchange_web/security/advisories
+[Report]: https://github.com/HyaenaTechnologies/data-interchange-web/security/advisories
 
 # Security Policy
 

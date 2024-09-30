@@ -7,10 +7,10 @@
 [VSCode]: https://code.visualstudio.com/docs
 [YAML]: https://yaml.org/
 
-<a href="https://github.com/HyaenaTechnologies/hyaena_technologies">
+<a href="https://github.com/HyaenaTechnologies/data-interchange-web">
   <h1>
     <picture>
-      <img src="https://github.com/HyaenaTechnologies/data_interchange_web/blob/main/assets/di_markdown.png" alt="">
+      <img src="https://github.com/HyaenaTechnologies/data-interchange-web/blob/main/assets/di_markdown.png" alt="">
     </picture>
   </h1>
 </a>
