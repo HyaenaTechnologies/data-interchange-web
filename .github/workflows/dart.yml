@@ -20,6 +20,9 @@ jobs:
       
     - name: Set up Dart
       uses: dart-lang/setup-dart@v1.6.5
+
+    - name: Upgrade Packages
+      run: dart pub upgrade
       
     - name: Analyze Package
       run: dart analyze lib
@@ -38,6 +41,3 @@ jobs:
       
     - name: Dependency Graph
       run: dart pub deps
-      
-    - name: Upgrade Packages
-      run: dart pub upgrade
