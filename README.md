@@ -45,5 +45,15 @@ Data Interchange Web is the Web implementation of Data Interchange
 ```shell
 git clone
 
-dart compile
+dart run build_runner build
+
+dart run build_runner serve
+
+dart run build_runner test
+
+dart run build_runner watch
+
+webdev build
+
+webdev serve
 ```
