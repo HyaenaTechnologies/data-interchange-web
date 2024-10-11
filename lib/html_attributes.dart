@@ -36,7 +36,7 @@ Attr readOnly = document.createAttribute('readonly');
 
 Attr resourceRelationship = document.createAttribute('rel');
 
-Attr required = document.createAttribute('required');
+Attr requiredAttribute = document.createAttribute('required');
 
 Attr size = document.createAttribute('size');
 
