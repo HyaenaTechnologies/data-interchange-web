@@ -54,7 +54,11 @@ dart run build_runner test
 dart run build_runner watch
 
 dart pub global activate webdev
+```
 
+OR
+
+```shell
 webdev build
 
 webdev serve
