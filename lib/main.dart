@@ -1,6 +1,6 @@
 import 'package:web/web.dart';
-import 'package:data_interchange/html_elements.dart';
+import 'package:data_interchange/create_elements.dart';
 
 void main() async {
-  division.text = 'Data Interchange';
+  createDivision.text = 'Data Interchange';
 }
