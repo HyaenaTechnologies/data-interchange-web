@@ -1,6 +1,6 @@
 [CommonMark]:https://commonmark.org/
 [Dart]: https://dart.dev/
-[Hypertext Transfer Protocol]: https://developer.mozilla.org/en-US/docs/Web/HTTP
+[HTTP]: https://developer.mozilla.org/en-US/docs/Web/HTTP
 [IDEA]: https://jetbrains.com/idea/
 [JSON]: https://www.json.org/json-en.html
 [TOML]: https://toml.io/en/
@@ -25,7 +25,7 @@ Data Interchange Web is the Web implementation of Data Interchange
 
 - Comma-Separated Values
 - Extensible Markup Language
-- [Hypertext Transfer Protocol][Hypertext Transfer Protocol]
+- [Hypertext Transfer Protocol][HTTP]
 - Internet Protocol
 - [JavaScript Object Notation][JSON]
 - [Markdown][CommonMark]
