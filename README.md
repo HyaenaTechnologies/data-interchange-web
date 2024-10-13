@@ -15,6 +15,8 @@
   </h1>
 </a>
 
+[![Dart Workflow](https://github.com/HyaenaTechnologies/data-interchange-web/actions/workflows/android.yml/badge.svg)](https://github.com/HyaenaTechnologies/data-interchange-web/actions/workflows/android.yml)
+
 # Data Interchange Web
 
 Data Interchange is a Network Application Programming Interface Platform
