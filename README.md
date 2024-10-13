@@ -15,7 +15,7 @@
   </h1>
 </a>
 
-[![Dart Workflow](https://github.com/HyaenaTechnologies/data-interchange-web/actions/workflows/android.yml/badge.svg)](https://github.com/HyaenaTechnologies/data-interchange-web/actions/workflows/android.yml)
+[![Dart Workflow](https://github.com/HyaenaTechnologies/data-interchange-web/actions/workflows/dart.yml/badge.svg)](https://github.com/HyaenaTechnologies/data-interchange-web/actions/workflows/dart.yml)
 
 # Data Interchange Web
 
