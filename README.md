@@ -3,6 +3,7 @@
 [HTTP]: https://developer.mozilla.org/en-US/docs/Web/HTTP
 [IDEA]: https://jetbrains.com/idea/
 [JSON]: https://www.json.org/json-en.html
+[MDN]: https://developer.mozilla.org/en-US/docs/Web/API
 [TOML]: https://toml.io/en/
 [VSCode]: https://code.visualstudio.com/docs
 [YAML]: https://yaml.org/
@@ -42,6 +43,7 @@ Data Interchange Web is the Web implementation of Data Interchange
 
 - [Dart Language][Dart]
 - [IntelliJ IDEA][IDEA]
+- [Mozilla Developer Network Web Documentation][MDN]
 - [Visual Studio Code][VSCode]
 
 ```shell
