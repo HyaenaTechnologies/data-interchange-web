@@ -16,13 +16,16 @@ jobs:
     steps:
     
     - name: Checkout Repository
-      uses: actions/checkout@v4.2.1
+      uses: actions/checkout@v4.2.2
       
     - name: Set up Dart
       uses: dart-lang/setup-dart@v1.6.5
 
     - name: Upgrade Packages
       run: dart pub upgrade
+
+    - name: Outdated Packages
+      run: dart pub outdated
       
     - name: Analyze Package
       run: dart analyze lib
