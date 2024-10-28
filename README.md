@@ -7,6 +7,7 @@
 [TOML]: https://toml.io/en/
 [VSCode]: https://code.visualstudio.com/docs
 [YAML]: https://yaml.org/
+[Zig Language]: https://ziglang.org/
 
 <a href="https://github.com/HyaenaTechnologies/data-interchange-web">
   <h1>
@@ -45,6 +46,7 @@ Data Interchange Web is the Web implementation of Data Interchange
 - [IntelliJ IDEA][IDEA]
 - [Mozilla Developer Network Web Documentation][MDN]
 - [Visual Studio Code][VSCode]
+- [Zig][Zig Language]
 
 ```shell
 git clone
@@ -72,4 +74,18 @@ dart pub global activate webdev
 webdev build
 
 webdev serve
+```
+
+## Build Web Server
+
+```shell
+git clone
+
+zig build
+```
+
+## Install Web Server
+
+```shell
+echo 'export PATH="$PATH:/usr/lib/htdinet"' >> ~/.profile
 ```
