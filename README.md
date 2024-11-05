@@ -21,9 +21,7 @@
 
 # Data Interchange Web
 
-Data Interchange is a Network Application Programming Interface Platform
-
-Data Interchange Web is the Web implementation of Data Interchange
+Data Interchange is a Network Application Programming Interface Development Platform
 
 ## Features
 
@@ -87,5 +85,5 @@ zig build
 ## Install Web Server
 
 ```shell
-echo 'export PATH="$PATH:/usr/lib/htdinet"' >> ~/.profile
+echo 'export PATH="$PATH:/usr/local/bin/htdinet"' >> ~/.bashrc && sudo echo 'export PATH="$PATH:/usr/local/bin/htdinet"' >> /etc/skel/.bashrc
 ```
