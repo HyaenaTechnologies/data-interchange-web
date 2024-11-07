@@ -15,7 +15,6 @@ RUN echo 'export PATH="$PATH:/usr/bin"' >> /etc/skel/.bashrc && echo 'export PAT
 RUN wget https://ziglang.org/download/0.13.0/zig-linux-x86_64-0.13.0.tar.xz && tar --extract --file ./*.xz --verbose
 RUN mv ./zig-linux-x86_64-0.13.0 ./zig && mv ./zig /usr/bin
 RUN echo 'export PATH="$PATH:/usr/bin/zig"' >> ~/.bashrc && echo 'export PATH="$PATH:/usr/bin/zig"' >> /etc/skel/.bashrc
-RUN zig version
 RUN dart info
 RUN dart pub global activate webdev
 RUN dart pub upgrade
