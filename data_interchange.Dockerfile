@@ -5,6 +5,7 @@ WORKDIR /data_interchange
 COPY ./ ./
 
 RUN apt update && apt -y full-upgrade 
+RUN apt -y install iptables firewalld nftables
 RUN apt -y install apt-transport-https
 RUN wget -qO- https://dl-ssl.google.com/linux/linux_signing_key.pub \ | gpg  --dearmor -o /usr/share/keyrings/dart.gpg
 RUN echo 'deb [signed-by=/usr/share/keyrings/dart.gpg arch=amd64] https://storage.googleapis.com/download.dartlang.org/linux/debian stable main' \ | tee /etc/apt/sources.list.d/dart_stable.list
