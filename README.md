@@ -49,6 +49,14 @@ Data Interchange is a Network Application Programming Interface Development Plat
 ```shell
 git clone
 
+dart compile js
+```
+
+OR
+
+```shell
+git clone
+
 dart pub upgrade
 
 dart run build_runner build
