@@ -10,7 +10,6 @@ dependencies:
   web_socket: 0.1.6
   web_socket_channel: 3.0.1
 
-
 description: "Data Interchange Format Implementations"
 
 dev_dependencies:
