@@ -7,6 +7,7 @@
 [TOML]: https://toml.io/en/
 [VSCode]: https://code.visualstudio.com/docs
 [YAML]: https://yaml.org/
+[WAI-ARIA]: https://www.w3.org/WAI/ARIA/apg/patterns/
 [Zig Language]: https://ziglang.org/
 
 <a href="https://github.com/HyaenaTechnologies/data-interchange-web">
@@ -44,6 +45,7 @@ Data Interchange is a Network Application Programming Interface Development Plat
 - [IntelliJ IDEA][IDEA]
 - [Mozilla Developer Network Web Documentation][MDN]
 - [Visual Studio Code][VSCode]
+- [Web Accessibility Initiative][WAI-ARIA]
 - [Zig][Zig Language]
 
 ```shell
@@ -91,7 +93,7 @@ webdev serve
 ```shell
 git clone
 
-go build
+GOOS=linux GOARCH=amd64 go build -o ./bin/server ./server/source/main.go
 ```
 
 ## Install Web Server
