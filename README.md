@@ -53,16 +53,6 @@ git clone
 
 dart pub upgrade
 
-dart compile js
-```
-
-OR
-
-```shell
-git clone
-
-dart pub upgrade
-
 dart run build_runner build
 
 dart run build_runner serve
