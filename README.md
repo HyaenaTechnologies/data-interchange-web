@@ -19,7 +19,7 @@
   </h1>
 </a>
 
-[![Dart Workflow](https://github.com/HyaenaTechnologies/data-interchange-web/actions/workflows/dart.yml/badge.svg)](https://github.com/HyaenaTechnologies/data-interchange-web/actions/workflows/dart.yml)
+[![Go Workflow](https://github.com/HyaenaTechnologies/data-interchange-web/actions/workflows/go.yml/badge.svg)](https://github.com/HyaenaTechnologies/data-interchange-web/actions/workflows/go.yml)
 
 # Data Interchange Web
 
