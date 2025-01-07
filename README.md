@@ -1,5 +1,5 @@
 [CommonMark]:https://commonmark.org/
-[Dart]: https://dart.dev/
+[Fleet]: https://jetbrains.com/fleet
 [Go Language]: https://go.dev
 [HTTP]: https://developer.mozilla.org/en-US/docs/Web/HTTP
 [JavaScript Language]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
@@ -43,6 +43,7 @@ Data Interchange is a Network Application Programming Interface Development Plat
 ## Build
 
 - [Go][Go Language]
+- [JetBrains Fleet][Fleet]
 - [JetBrains Webstorm][Webstorm]
 - [JavaScript][JavaScript Language]
 - [Mozilla Developer Network Web Documentation][MDN]
