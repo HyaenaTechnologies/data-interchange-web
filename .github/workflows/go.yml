@@ -25,9 +25,6 @@ jobs:
 
     - name: Environment Information
       run: go env
-
-    - name: List Packages or Modules 
-      run: go list ./server
     
     - name: Report Mistakes in Package  
       run: go vet ./server
