@@ -25,9 +25,18 @@ jobs:
 
     - name: Environment Information
       run: go env
-    
+  
+    - name: List Packages or Modules 
+      run: go list
+        
     - name: Report Mistakes in Package  
-      run: go vet ./server/source/main.go
+      run: go vet
+        
+    - name: Update Package to New APIs  
+      run: go fix
+        
+    - name: Format Package 
+      run: go fmt
 
     - name: Compile Package and Dependencies
-      run: GOOS=linux GOARCH=amd64 go build -o ./binary/htdinet ./server/source/main.go
+      run: GOOS=linux GOARCH=amd64 go build -o ./binary/htdinet ./source/main.go
