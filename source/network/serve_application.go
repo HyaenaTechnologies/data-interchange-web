@@ -7,7 +7,7 @@ import (
 
 const port string = ":8080"
 
-var fileServer http.Handler = http.FileServer(http.Dir("./source"))
+var fileServer http.Handler = http.FileServer(http.Dir("./web/source"))
 
 // Serve Web Application
 func ServeWebApplication() {
