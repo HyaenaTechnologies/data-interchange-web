@@ -13,10 +13,10 @@ RUN echo 'export PATH="$PATH:/usr/local/include"' >> ~/.bashrc && echo 'export P
 RUN echo 'export PATH="$PATH:/usr/bin/go/bin"' >> ~/.bashrc && echo 'export PATH="$PATH:/usr/bin/go/bin"' >> /etc/skel/.bashrc 
 RUN wget https://go.dev/dl/go1.23.4.linux-amd64.tar.gz && tar --extract --file ./*.gz --verbose
 RUN mv ./go1.23.4.linux-amd64/go /usr/bin
-RUN go env
-RUN go list
-RUN go vet
-RUN go fix
-RUN go fmt
-RUN go vet
+RUN go env 
+RUN go list ./source
+RUN go vet ./source
+RUN go fix ./source
+RUN go fmt ./source
+RUN go vet ./source
 RUN GOOS=linux GOARCH=amd64 go build -o ./binary/htdinet ./source/main.go
