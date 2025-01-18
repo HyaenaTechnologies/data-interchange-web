@@ -28,7 +28,6 @@ Data Interchange is a Network Application Programming Interface Development Plat
 ## Features
 
 - Comma-Separated Values
-- Extensible Markup Language
 - [Hypertext Transfer Protocol][HTTP]
 - Internet Protocol
 - [JavaScript Object Notation][JSON]
