@@ -1,15 +1,14 @@
 [CommonMark]:https://commonmark.org/
 [Fleet]: https://jetbrains.com/fleet
 [Go Language]: https://go.dev
+[GoLand]: https://jetbrains.com/go
 [HTTP]: https://developer.mozilla.org/en-US/docs/Web/HTTP
-[JavaScript Language]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 [JSON]: https://www.json.org/json-en.html
 [MDN]: https://developer.mozilla.org/en-US/docs/Web/API
 [TOML]: https://toml.io/en/
 [VSCode]: https://code.visualstudio.com/docs
 [YAML]: https://yaml.org/
 [WAI-ARIA]: https://www.w3.org/WAI/ARIA/apg/patterns/
-[Webstorm]: https://jetbrains.com/webstorm
 
 <a href="https://github.com/HyaenaTechnologies/data-interchange-web">
   <h1>
@@ -43,8 +42,7 @@ Data Interchange is a Network Application Programming Interface Development Plat
 
 - [Go][Go Language]
 - [JetBrains Fleet][Fleet]
-- [JetBrains Webstorm][Webstorm]
-- [JavaScript][JavaScript Language]
+- [JetBrains GoLand][GoLand]
 - [Mozilla Developer Network Web Documentation][MDN]
 - [Visual Studio Code][VSCode]
 - [Web Accessibility Initiative][WAI-ARIA]
