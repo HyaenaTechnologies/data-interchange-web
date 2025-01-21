@@ -12,9 +12,7 @@ var userInput *bufio.Scanner = bufio.NewScanner(os.Stdin)
 
 var userInputText string = userInput.Text()
 
-var cleanUserInput []string = TokenizeArgumentInput(userInputText)
-
-var inputArguments string = cleanUserInput[0]
+var tokenizedUserInput []string = TokenizeArgumentInput(userInputText)
 
 // Command Line User Input
 func UserInput() {
@@ -23,11 +21,11 @@ func UserInput() {
 
 		userInput.Scan()
 
-		if len(cleanUserInput) == 0 {
+		if len(tokenizedUserInput) == 0 {
 			continue
 		}
 
-		switch inputArguments {
+		switch tokenizedUserInput[0] {
 		case "exit":
 			os.Exit(0)
 		case "help":
@@ -37,7 +35,7 @@ func UserInput() {
 		case "version":
 			utility.PrintVersionNumber()
 		default:
-			fmt.Println("Invalid Command: ", inputArguments)
+			fmt.Println("Invalid Command: ", tokenizedUserInput)
 		}
 	}
 }

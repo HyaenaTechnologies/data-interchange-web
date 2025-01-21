@@ -1,9 +1,9 @@
 package main
 
 import (
-	"data-interchange-server/source/network"
+	"data-interchange-server/source/command"
 )
 
 func main() {
-	network.ServeWebApplication()
+	command.UserInput()
 }
