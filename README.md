@@ -53,7 +53,7 @@ Data Interchange is a Network Application Programming Interface Development Plat
 ```shell
 git clone
 
-GOOS=linux GOARCH=amd64 go build -o ./binary/htdinet ./source/main.go
+GOARCH=amd64 GOOS=linux go build -o ./binary/htdinet ./source/main.go
 ```
 
 ## Install Web Server
