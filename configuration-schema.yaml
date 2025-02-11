@@ -4,14 +4,6 @@ kind: Config	# Always Config.
 
 name: # Project Name
 
-requires:	# List of other Required Configurations for the Current Configuration
-- configs: []	# Named configurations within the file path. If empty, then all configurations in the file are included.
-  path:	# Path to File Containing Required Configurations
-
-  git:	# Remote Git Repository Containing Required Configurations
-    repo:	# git repository the package should be cloned from. e.g. https://github.com/HyaenaTechnologies/configuration.git.
-    path:	# relative path from the repo root to the skaffold configuration file. eg. getting-started/server-configuration.yaml.
-
 sources: # Path to Sources and Assets
   sourceCode:
     path:	# Path to Source Code: String - *.css, *.html, *.js
