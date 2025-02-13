@@ -14,6 +14,8 @@ GOOS=linux GOARCH=amd64 go build -o ./binary/htdinet ./source/main.go
 
 FROM amd64/alpine:latest
 
+WORKDIR /data-interchange
+
 COPY --from=builder ./ ./ 
 
 RUN ./binary/htdinet serve
