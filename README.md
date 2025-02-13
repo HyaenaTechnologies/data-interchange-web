@@ -56,6 +56,22 @@ git clone
 GOARCH=amd64 GOOS=linux go build -o ./binary/htdinet ./source/main.go
 ```
 
+OR
+
+```shell
+git clone
+
+make build
+```
+
+OR
+
+```shell
+git clone
+
+./shell/build.sh
+```
+
 ## Install Web Server
 
 ```shell
