@@ -1,10 +1,10 @@
 [CommonMark]:https://commonmark.org/
 [Fleet]: https://jetbrains.com/fleet
-[Go Language]: https://go.dev
-[GoLand]: https://jetbrains.com/go
 [HTTP]: https://developer.mozilla.org/en-US/docs/Web/HTTP
 [JSON]: https://www.json.org/json-en.html
 [MDN]: https://developer.mozilla.org/en-US/docs/Web/API
+[Rust Language]: https://rust-lang.org
+[RustRover]: https://jetbrains.com/rust
 [TOML]: https://toml.io/en/
 [VSCode]: https://code.visualstudio.com/docs
 [YAML]: https://yaml.org/
@@ -18,7 +18,7 @@
   </h1>
 </a>
 
-[![Go Workflow](https://github.com/HyaenaTechnologies/data-interchange-web/actions/workflows/go.yml/badge.svg)](https://github.com/HyaenaTechnologies/data-interchange-web/actions/workflows/go.yml)
+[![Rust Workflow](https://github.com/HyaenaTechnologies/data-interchange-web/actions/workflows/rust.yml/badge.svg)](https://github.com/HyaenaTechnologies/data-interchange-web/actions/workflows/rust.yml)
 
 # Data Interchange Web
 
@@ -41,9 +41,9 @@ Data Interchange is a Network Application Programming Interface Development Plat
 
 ## Build
 
-- [Go][Go Language]
+- [Rust][Rust Language]
 - [JetBrains Fleet][Fleet]
-- [JetBrains GoLand][GoLand]
+- [JetBrains RustRover][RustRover]
 - [Mozilla Developer Network Web Documentation][MDN]
 - [Visual Studio Code][VSCode]
 - [Web Accessibility Initiative][WAI-ARIA]
@@ -53,7 +53,7 @@ Data Interchange is a Network Application Programming Interface Development Plat
 ```shell
 git clone
 
-GOARCH=amd64 GOOS=linux go build -o ./binary/htdinet ./source/main.go
+cargo build
 ```
 
 OR

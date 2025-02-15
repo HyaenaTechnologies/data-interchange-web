@@ -1,16 +1,10 @@
-FROM amd64/golang:alpine
+FROM amd64/rust:alpine
 
 WORKDIR /data-interchange
 
 COPY ./ ./
 
-RUN go env  \ 
-go list ./source \ 
-go vet ./source \ 
-go fix ./source \ 
-go fmt ./source \ 
-go vet ./source \ 
-GOOS=linux GOARCH=amd64 go build -o ./binary/htdinet ./source/main.go
+RUN cargo build
 
 FROM amd64/alpine:latest
 
