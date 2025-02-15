@@ -54,6 +54,9 @@ Data Interchange is a Network Application Programming Interface Development Plat
 git clone
 
 cargo build
+
+./target/debug/htdinet serve
+./target/release/htdinet serve
 ```
 
 OR
@@ -62,6 +65,9 @@ OR
 git clone
 
 make build
+
+./target/debug/htdinet serve
+./target/release/htdinet serve
 ```
 
 OR
@@ -70,6 +76,9 @@ OR
 git clone
 
 ./shell/build.sh
+
+./target/debug/htdinet serve
+./target/release/htdinet serve
 ```
 
 ## Install Web Server

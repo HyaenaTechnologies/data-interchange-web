@@ -12,4 +12,4 @@ WORKDIR /data-interchange
 
 COPY --from=builder ./ ./ 
 
-RUN ./binary/htdinet serve
+RUN  ./target/debug/htdinet serve
