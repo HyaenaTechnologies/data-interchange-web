@@ -81,5 +81,6 @@ mv ./target/release/data-interchange-server ./binary \
 ## Install Web Server
 
 ```shell
-echo 'export PATH="$PATH:/usr/local/bin/htdinet"' >> ~/.bashrc && sudo echo 'export PATH="$PATH:/usr/local/bin/htdinet"' >> /etc/skel/.bashrc
+echo 'export PATH="$PATH:/usr/local/bin/htdinet"' >> ~/.bashrc \ 
+sudo echo 'export PATH="$PATH:/usr/local/bin/htdinet"' >> /etc/skel/.bashrc
 ```
