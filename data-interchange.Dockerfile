@@ -4,12 +4,15 @@ WORKDIR /data-interchange
 
 COPY ./ ./
 
-RUN cargo build
+RUN cargo update \ 
+cargo check \  
+cargo build --release \ 
+mv ./target/release/data-interchange-server ./binary
 
 FROM amd64/alpine:latest
 
 WORKDIR /data-interchange
 
-COPY --from=builder ./ ./ 
+COPY --from=builder ./ ./
 
-RUN  ./target/debug/htdinet serve
+RUN ./binary/data-interchange-server serve

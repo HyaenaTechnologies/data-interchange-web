@@ -53,10 +53,9 @@ Data Interchange is a Network Application Programming Interface Development Plat
 ```shell
 git clone
 
-cargo build
-
-./target/debug/htdinet serve
-./target/release/htdinet serve
+cargo build --release \ 
+mv ./target/release/data-interchange-server ./binary \ 
+./binary/data-interchange-server serve
 ```
 
 OR
@@ -64,10 +63,9 @@ OR
 ```shell
 git clone
 
-make build
-
-./target/debug/htdinet serve
-./target/release/htdinet serve
+make build-release \ 
+mv ./target/release/data-interchange-server ./binary \ 
+./binary/data-interchange-server serve
 ```
 
 OR
@@ -75,10 +73,9 @@ OR
 ```shell
 git clone
 
-./shell/build.sh
-
-./target/debug/htdinet serve
-./target/release/htdinet serve
+./shell/build.sh \ 
+mv ./target/release/data-interchange-server ./binary \ 
+./binary/data-interchange-server serve
 ```
 
 ## Install Web Server
