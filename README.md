@@ -116,7 +116,7 @@ mv ./target/release/data-interchange-server ./binary \
 ```shell
 git clone
 
-docker build ./ --file ./data-interchange.Dockerfile --tag amd64/data-interchange-server:latest
+docker build ./ --file ./data-interchange.Dockerfile --tag data-interchange-server:latest
 ```
 
 OR

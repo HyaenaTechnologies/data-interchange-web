@@ -1,4 +1,4 @@
-FROM amd64/rust:alpine
+FROM rust:alpine
 
 WORKDIR /data-interchange
 
@@ -8,7 +8,7 @@ RUN cargo check \
 cargo build --release \ 
 mv ./target/release/data-interchange-server ./binary
 
-FROM amd64/alpine:latest
+FROM alpine:latest
 
 WORKDIR /data-interchange
 
