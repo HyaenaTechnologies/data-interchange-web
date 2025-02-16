@@ -1,10 +1,26 @@
 [CommonMark]:https://commonmark.org/
+[Containerman]: https://podman.io/
+[Containerman Pod]: https://docs.podman.io/en/latest/markdown/podman-pod.1.html
+[Etcd-IO]: https://etcd.io/
 [Fleet]: https://jetbrains.com/fleet
+[Greptime Database]: https://greptime.com/
 [HTTP]: https://developer.mozilla.org/en-US/docs/Web/HTTP
 [JSON]: https://www.json.org/json-en.html
+[K8S Control]: https://kubernetes.io/
+[K8S Kompose]: https://kompose.io/
+[K8S Kube]: https://minikube.sigs.k8s.io/docs/
+[K8S Native]: https://knative.dev/docs/
+[K8S Ops]: https://kops.sigs.k8s.io/
+[K8S Skaffold]: https://skaffold.dev/
 [MDN]: https://developer.mozilla.org/en-US/docs/Web/API
+[Minio Database]: https://min.io/
+[Moby]: http://docker.com
+[Moby Compose]: https://docs.docker.com/reference/cli/docker/compose/
+[Moby Swarm]: https://docs.docker.com/reference/cli/docker/swarm/
 [Rust Language]: https://rust-lang.org
 [RustRover]: https://jetbrains.com/rust
+[Spice Database]: https://authzed.com/
+[Surreal Database]: https://surrealdb.com/
 [TOML]: https://toml.io/en/
 [VSCode]: https://code.visualstudio.com/docs
 [YAML]: https://yaml.org/
@@ -40,6 +56,11 @@ Data Interchange is a Network Application Programming Interface Development Plat
 - [YAML Ain't Markup Language][YAML]
 
 ## Build
+- **_Container Engines:_** [Docker][Moby], [Podman][Containerman]
+
+- **_Container Orchestration Engines:_** [Docker Compose][Moby Compose], [Docker Swarm][Moby Swarm], [KOps][K8S Ops], [Minikube][K8S Kube], [Podman Pods][Containerman Pod]
+
+- **_Container Tools:_** [Knative][K8S Native], [Kompose][K8S Kompose], [Kubectl][K8S Control], [Skaffold][K8S Skaffold]
 
 - [Rust][Rust Language]
 - [JetBrains Fleet][Fleet]
@@ -47,6 +68,18 @@ Data Interchange is a Network Application Programming Interface Development Plat
 - [Mozilla Developer Network Web Documentation][MDN]
 - [Visual Studio Code][VSCode]
 - [Web Accessibility Initiative][WAI-ARIA]
+
+## Databases
+
+- **_Authorization:_** [Spice][Spice Database]
+
+- **_Graph:_** [Surreal][Surreal Database]
+
+- **_Key Value:_** [Etcd][Etcd-IO]
+
+- **_Object Storage:_** [Minio][Minio Database]
+
+- **_Time Series:_** [Greptime][Greptime Database]
 
 ## Build Web Server
 
@@ -76,6 +109,30 @@ git clone
 ./shell/build.sh \ 
 mv ./target/release/data-interchange-server ./binary \ 
 ./binary/data-interchange-server serve
+```
+
+## Containerize Web Server
+
+```shell
+git clone
+
+docker build ./ --file ./data-interchange.Dockerfile --tag amd64/data-interchange-server:latest
+```
+
+OR
+
+```shell
+git clone
+
+make docker-build
+```
+
+OR
+
+```shell
+git clone
+
+./docker/build.sh
 ```
 
 ## Install Web Server
