@@ -31,4 +31,4 @@ update:
 # Docker Build Package
 .PHONY: docker-build
 docker-build:
-	docker build ./ --file ./data-interchange.Dockerfile --tag data-interchange-server:latest
+	docker build ./ --file ./data-interchange.Dockerfile --tag data-interchange-web:latest

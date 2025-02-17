@@ -1,6 +1,6 @@
 FROM rust:alpine
 
-WORKDIR /data-interchange
+WORKDIR /data-interchange-web
 
 COPY ./ ./
 
@@ -10,10 +10,10 @@ mv ./target/release/data-interchange-server ./binary
 
 FROM alpine:latest
 
-WORKDIR /data-interchange
+WORKDIR /data-interchange-web
 
 COPY --from=builder ./ ./
 
 EXPOSE 80:8080/tcp
 
-RUN ./binary/data-interchange-server serve
+CMD ["./binary/data-interchange-server", "serve"]

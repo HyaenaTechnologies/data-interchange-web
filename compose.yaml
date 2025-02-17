@@ -1,6 +1,11 @@
-name: data-interchange-web-services
+name: data-interchange-web
 
 services:
+  web-server:
+    image: data-interchange-web:latest
+    ports:
+      - "80:8080"
+      
   spice-authorization:
     image: authzed/spicedb:latest
     ports:

@@ -87,8 +87,8 @@ Data Interchange is a Network Application Programming Interface Development Plat
 git clone
 
 cargo build --release \ 
-mv ./target/release/data-interchange-server ./binary \ 
-./binary/data-interchange-server serve
+mv ./target/release/data-interchange-web ./binary \ 
+./binary/data-interchange-web serve
 ```
 
 OR
@@ -97,8 +97,8 @@ OR
 git clone
 
 make build-release \ 
-mv ./target/release/data-interchange-server ./binary \ 
-./binary/data-interchange-server serve
+mv ./target/release/data-interchange-web ./binary \ 
+./binary/data-interchange-web serve
 ```
 
 OR
@@ -107,8 +107,8 @@ OR
 git clone
 
 ./shell/build.sh \ 
-mv ./target/release/data-interchange-server ./binary \ 
-./binary/data-interchange-server serve
+mv ./target/release/data-interchange-web ./binary \ 
+./binary/data-interchange-web serve
 ```
 
 ## Containerize Web Server
@@ -116,7 +116,7 @@ mv ./target/release/data-interchange-server ./binary \
 ```shell
 git clone
 
-docker build ./ --file ./data-interchange.Dockerfile --tag data-interchange-server:latest
+docker build ./ --file ./data-interchange.Dockerfile --tag data-interchange-web:latest
 ```
 
 OR
