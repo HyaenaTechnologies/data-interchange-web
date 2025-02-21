@@ -2,7 +2,7 @@ apiVersion: htdinet/v0alpha2 # Configuration Version
 
 kind: Config	# Always Config.
 
-name:	data-interchange-server # Project Name
+name:	data-interchange-web # Project Name
 
 sources: # Path to Sources and Assets
   sourceCode:
