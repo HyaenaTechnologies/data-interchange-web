@@ -106,7 +106,7 @@ OR
 ```shell
 git clone
 
-./shell/build.sh \ 
+./shell/rust.bash \ 
 mv ./target/release/data-interchange-web ./binary \ 
 ./binary/data-interchange-web serve
 ```
@@ -132,7 +132,7 @@ OR
 ```shell
 git clone
 
-./docker/build.sh
+./shell/docker.bash
 ```
 
 ## Install Web Server
