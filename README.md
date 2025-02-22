@@ -88,7 +88,8 @@ git clone
 
 cargo build --release \ 
 mv ./target/release/data-interchange-web ./binary \ 
-./binary/data-interchange-web serve
+mv ./binary/data-interchange-web ./binary/htdinet \ 
+./binary/htdinet serve
 ```
 
 OR
@@ -98,7 +99,8 @@ git clone
 
 make build-release \ 
 mv ./target/release/data-interchange-web ./binary \ 
-./binary/data-interchange-web serve
+mv ./binary/data-interchange-web ./binary/htdinet \ 
+./binary/htdinet serve
 ```
 
 OR
@@ -108,7 +110,8 @@ git clone
 
 ./shell/rust.bash \ 
 mv ./target/release/data-interchange-web ./binary \ 
-./binary/data-interchange-web serve
+mv ./binary/data-interchange-web ./binary/htdinet \ 
+./binary/htdinet serve
 ```
 
 ## Containerize Web Server
