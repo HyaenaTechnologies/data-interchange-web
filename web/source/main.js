@@ -1,5 +1,13 @@
 "use strict";
 
+// @ts-check
+
+import "/html/create-element.js"
+
+// Main Entry Point
+/** @type {function(): void} */
 function main() {
-  document.createElement('div');
+  contentDivision
+
+  document.body.appendChild(contentDivision);
 }
