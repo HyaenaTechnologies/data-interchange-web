@@ -2,12 +2,50 @@
 
 // @ts-check
 
-import "/html/create-element.js"
+import "./html/create-element.js"
 
 // Main Entry Point
 /** @type {function(): void} */
 function main() {
-  contentDivision
+  HTMLDocumentRoot
 
-  document.body.appendChild(contentDivision);
+  HTMLDocumentRoot.lang = "en";
+
+  documentMetadataHeader
+
+  externalResourceLink
+
+  externalResourceLink.href = "theme.css";
+
+  externalResourceLink.rel = "stylesheet";
+
+  externalResourceLink.type = "text/css";
+
+  documentMetadataHeader.appendChild(externalResourceLink);
+
+  HTMLMetadata
+
+  HTMLMetadata.name = "main-index";
+
+  HTMLMetadata.content = "width=device-width";
+
+  documentMetadataHeader.appendChild(HTMLMetadata);
+
+  HTMLDocumentRoot.appendChild(documentMetadataHeader);
+
+  documentBody
+
+  HTMLMain
+
+  HTMLParagraph
+
+  HTMLParagraph.innerText = "Data Interchange";
+
+  HTMLMain.appendChild(HTMLParagraph);
+
+  documentBody.appendChild(HTMLMain);
+
+  HTMLDocumentRoot.appendChild(documentBody);
+
+  document.body.appendChild(HTMLDocumentRoot);
 }

@@ -1136,8 +1136,8 @@ dependencies = [
  "config",
  "confy",
  "futures",
- "h2 0.4.8",
- "http 1.2.0",
+ "hyper 1.6.0",
+ "hyper-util",
  "log",
  "minio",
  "opentelemetry",
@@ -1153,7 +1153,6 @@ dependencies = [
  "rexpect",
  "s2n-quic",
  "serde_json",
- "socket2",
  "surrealdb",
  "termtree",
 ]
@@ -1700,25 +1699,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "h2"
-version = "0.4.8"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5017294ff4bb30944501348f6f8e42e6ad28f42c8bbef7a74029aff064a4e3c2"
-dependencies = [
- "atomic-waker",
- "bytes",
- "fnv",
- "futures-core",
- "futures-sink",
- "http 1.2.0",
- "indexmap 2.7.1",
- "slab",
- "tokio",
- "tokio-util",
- "tracing",
-]
-
-[[package]]
 name = "half"
 version = "2.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1944,7 +1924,7 @@ dependencies = [
  "futures-channel",
  "futures-core",
  "futures-util",
- "h2 0.3.26",
+ "h2",
  "http 0.2.12",
  "http-body 0.4.6",
  "httparse",
@@ -3804,7 +3784,7 @@ dependencies = [
  "encoding_rs",
  "futures-core",
  "futures-util",
- "h2 0.3.26",
+ "h2",
  "http 0.2.12",
  "http-body 0.4.6",
  "hyper 0.14.32",
