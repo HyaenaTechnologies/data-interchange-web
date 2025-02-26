@@ -86,9 +86,9 @@ Data Interchange is a Network Application Programming Interface Development Plat
 ```shell
 git clone
 
-cargo build --release \ 
-mv ./target/release/data-interchange-web ./binary \ 
-mv ./binary/data-interchange-web ./binary/htdinet \ 
+cargo build --release 
+mv ./target/release/data-interchange-web ./binary
+mv ./binary/data-interchange-web ./binary/htdinet
 ./binary/htdinet serve
 ```
 
@@ -97,9 +97,9 @@ OR
 ```shell
 git clone
 
-make build-release \ 
-mv ./target/release/data-interchange-web ./binary \ 
-mv ./binary/data-interchange-web ./binary/htdinet \ 
+make build-release
+mv ./target/release/data-interchange-web ./binary
+mv ./binary/data-interchange-web ./binary/htdinet
 ./binary/htdinet serve
 ```
 
@@ -108,9 +108,9 @@ OR
 ```shell
 git clone
 
-./shell/rust.bash \ 
-mv ./target/release/data-interchange-web ./binary \ 
-mv ./binary/data-interchange-web ./binary/htdinet \ 
+./shell/rust.bash
+mv ./target/release/data-interchange-web ./binary
+mv ./binary/data-interchange-web ./binary/htdinet
 ./binary/htdinet serve
 ```
 
@@ -141,6 +141,6 @@ git clone
 ## Install Web Server
 
 ```shell
-echo 'export PATH="$PATH:/usr/local/bin/htdinet"' >> ~/.bashrc \ 
+echo 'export PATH="$PATH:/usr/local/bin/htdinet"' >> ~/.bashrc
 sudo echo 'export PATH="$PATH:/usr/local/bin/htdinet"' >> /etc/skel/.bashrc
 ```
