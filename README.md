@@ -23,8 +23,8 @@
 [Surreal Database]: https://surrealdb.com/
 [TOML]: https://toml.io/en/
 [VSCode]: https://code.visualstudio.com/docs
-[YAML]: https://yaml.org/
 [WAI-ARIA]: https://www.w3.org/WAI/ARIA/apg/patterns/
+[YAML]: https://yaml.org/
 
 <a href="https://github.com/HyaenaTechnologies/data-interchange-web">
   <h1>
@@ -44,6 +44,7 @@ Data Interchange is a Network Application Programming Interface Development Plat
 
 - Comma-Separated Values
 - DNS Protocol
+- Environment Variables
 - [Hypertext Transfer Protocol][HTTP]
 - Internet Protocol
 - [JavaScript Object Notation][JSON]
