@@ -11,11 +11,6 @@ function main() {
   HTMLDocumentRoot.lang = "en";
   
   documentMetadataHeader
-  externalResourceLink
-  externalResourceLink.href = "theme.css";
-  externalResourceLink.rel = "stylesheet";
-  externalResourceLink.type = "text/css";
-  documentMetadataHeader.appendChild(externalResourceLink);
   HTMLMetadata
   HTMLMetadata.name = "main-index";
   HTMLMetadata.content = "width=device-width";
@@ -29,6 +24,10 @@ function main() {
   HTMLMain.appendChild(HTMLParagraph);
   documentBody.appendChild(HTMLMain);
   HTMLDocumentRoot.appendChild(documentBody);
-  
+
+  document.body.style.background = 'lightblue';
   document.body.appendChild(HTMLDocumentRoot);
 }
+
+main()
+
