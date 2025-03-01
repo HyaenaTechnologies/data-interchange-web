@@ -93,50 +93,12 @@ mv ./binary/data-interchange-web ./binary/htdinet
 ./binary/htdinet serve
 ```
 
-OR
-
-```shell
-git clone
-
-make build-release
-mv ./target/release/data-interchange-web ./binary
-mv ./binary/data-interchange-web ./binary/htdinet
-./binary/htdinet serve
-```
-
-OR
-
-```shell
-git clone
-
-./shell/rust.bash
-mv ./target/release/data-interchange-web ./binary
-mv ./binary/data-interchange-web ./binary/htdinet
-./binary/htdinet serve
-```
-
 ## Containerize Web Server
 
 ```shell
 git clone
 
 docker build ./ --file ./data-interchange.Dockerfile --tag data-interchange-web:latest
-```
-
-OR
-
-```shell
-git clone
-
-make docker-build
-```
-
-OR
-
-```shell
-git clone
-
-./shell/docker.bash
 ```
 
 ## Install Web Server

@@ -5,12 +5,16 @@
 import "./html/create-element.js"
 
 // Main Entry Point
-/** @type {function(): void} */
+/** @type {function(): HTMLHtmlElement} */
 function main() {
   HTMLDocumentRoot
   HTMLDocumentRoot.lang = "en";
   
   documentMetadataHeader
+  externalResourceLink
+  externalResourceLink.href = "theme/light.css";
+  externalResourceLink.rel = "stylesheet";
+  documentMetadataHeader.appendChild(externalResourceLink);
   HTMLMetadata
   HTMLMetadata.name = "main-index";
   HTMLMetadata.content = "width=device-width";
@@ -24,10 +28,9 @@ function main() {
   HTMLMain.appendChild(HTMLParagraph);
   documentBody.appendChild(HTMLMain);
   HTMLDocumentRoot.appendChild(documentBody);
-
-  document.body.style.background = 'lightblue';
-  document.body.appendChild(HTMLDocumentRoot);
+  
+  return document.body.appendChild(HTMLDocumentRoot);
 }
 
-main()
+main();
 
