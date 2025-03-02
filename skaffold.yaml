@@ -1,7 +1,7 @@
 apiVersion: skaffold/v4beta11
 kind: Config
 metadata:
-  name: hyaena-technologies-web
+  name: data-interchange-web
 manifests:
   rawYaml:
     - knative/eventing/event-display.yaml
