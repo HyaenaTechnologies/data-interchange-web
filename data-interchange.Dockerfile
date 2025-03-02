@@ -14,6 +14,6 @@ WORKDIR /data-interchange-web
 
 COPY --from=builder ./ ./
 
-EXPOSE 80:8080/tcp
+EXPOSE 8080/tcp
 
 CMD ["./binary/data-interchange-server", "serve"]
